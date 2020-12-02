@@ -1,0 +1,38 @@
+.Weather {
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  padding: 16px;
+  margin: 30px auto;
+  border-radius: 5px;
+  max-width: 700px;
+}
+
+.Weather form {
+  margin-bottom: 20px;
+}
+
+.Weather h1 {
+  color: navy;
+  display: block;
+  font-family: emoji;
+  font-weight: 100;
+  line-height: 60px;
+  text-align: center;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 5;
+}
+
+.Weather li {
+  font-size: 16px;
+  line-height: 23px;
+  text-align: left;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style: none;
+}
