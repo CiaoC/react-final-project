@@ -43,12 +43,14 @@
   color: navy;
   text-align: left;
 }
+
 .Weather .units {
   height: auto;
   color: navy;
   position: relative;
   top: -30px;
   font-weight: 500;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .Weather img {
