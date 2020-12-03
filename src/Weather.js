@@ -10,7 +10,7 @@ export default function Weather() {
                         <input type="search" placeholder="Enter a City..." className="form-control" autoFocus="on" />
                     </div>
                     <div className="col-3">
-                <input type="submit" value="Search" className="btn btn-primary w-100"/></div>
+                <input type="submit" value="Search" className="btn btn-info w-100"/></div>
                </div>     
             </form>
                 
@@ -27,7 +27,8 @@ export default function Weather() {
                 <div className="col-6">
                     <img
                         src="https://s1.twnmm.com/images/en_ca/icons/wxicons_large/2.png" alt="A few clouds" /> 
-                   <strong>2 degrees </strong>
+                    <span className="temperature">2</span>
+                    <span className="units"> °C | °F </span>
                 </div>
                 <div className="col-6">
                     <ul>
