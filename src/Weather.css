@@ -33,12 +33,27 @@
   text-align: left;
   font-family: Georgia, "Times New Roman", Times, serif;
   list-style: none;
+  color: navy;
 }
 
 .Weather .temperature {
-  font-size: 24px;
+  font-size: 60px;
   font-weight: bold;
+  font-weight: 500;
+  color: navy;
+  text-align: left;
 }
 .Weather .units {
-  margin-top: auto;
+  height: auto;
+  color: navy;
+  position: relative;
+  top: -30px;
+  font-weight: 500;
+}
+
+.Weather img {
+  height: 110px;
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
 }
