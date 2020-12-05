@@ -16,6 +16,7 @@ export default function Weather(props) {
             date: new Date (response.data.dt*1000),
             wind: response.data.wind.speed,
             city: response.data.name, 
+            precipitation: response.data.clouds.all,
             description: response.data.weather[0].description,
             icon: "https://s1.twnmm.com/images/en_ca/icons/wxicons_large/2.png"
         });

@@ -23,7 +23,9 @@ export default function Weatherdata(props) {
                 <div className="col-6">
                     <ul>
                         <li> Humidity: {props.data.humidity}% </li>
+                        <li> Precipitation: {props.data.precipitation} % </li>
                         <li> Wind: {Math.round(props.data.wind)} km/h </li>
+                        
                     </ul>
                 </div>
             </div>
