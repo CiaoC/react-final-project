@@ -1,5 +1,6 @@
 import React from "react";
 import Today from "./Today";
+import WeatherTemperature from "./WeatherTemperature";
 
 export default function Weatherdata(props) {
     return (
@@ -17,8 +18,7 @@ export default function Weatherdata(props) {
                 <div className="col-6">
                     <img
                         src={props.data.icon} alt={props.data.description} />
-                    <span className="temperature">{Math.round(props.data.temperature)}</span>
-                    <span className="units"> °C | °F </span>
+                    <WeatherTemperature celsius={props.data.temperature} />
                 </div>
                 <div className="col-6">
                     <ul>
