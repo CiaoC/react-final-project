@@ -59,3 +59,7 @@
   margin-right: 10px;
   margin-left: 5px;
 }
+
+.Weather canvas {
+  margin: 10px auto;
+}
