@@ -7,10 +7,13 @@
   );
   padding: 16px;
   border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .Weather form {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
 }
 
 .Weather h1 {
