@@ -17,10 +17,14 @@ export default function WeatherStat(props) {
             </ul>
             <div className="row">
                 <div className="col-6">
+                    <div className="clearfix">
+                        <div className="float-left">
                     <WeatherIcon code={props.data.icon} />
-                </div>
-                <div>
+                        </div>
+                    <div>
                     <WeatherTemperature celsius={props.data.temperature} />
+                    </div>
+                    </div>
                 </div>
                 <div className="col-6">
                     <ul>
