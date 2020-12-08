@@ -2,6 +2,7 @@ import React from "react";
 import Today from "./Today";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import "./Stats.css";
 
 export default function WeatherStat(props) {
     return (
@@ -18,10 +19,10 @@ export default function WeatherStat(props) {
             <div className="row">
                 <div className="col-6">
                     <div className="clearfix">
-                        <div className="float-left">
+                        <div className="float-right">
                     <WeatherIcon code={props.data.icon} />
                         </div>
-                    <div>
+                    <div className="temperature">
                     <WeatherTemperature celsius={props.data.temperature} />
                     </div>
                     </div>
