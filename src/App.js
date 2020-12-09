@@ -11,7 +11,7 @@ export default function App() {
         <Weather defaultCity="Sherwood Park" />
         <footer>
       This project was coded by Cindy Chau and is {" "}
-  <a href="https://github.com/CiaoC/react-final-project" target="_blank"> open-sourced on GitHub</a>
+  <a href="https://github.com/CiaoC/react-final-project" target="noreferrer"> open-sourced on GitHub</a>
   </footer>
   </div>
   </div>  

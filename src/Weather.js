@@ -72,7 +72,7 @@ export default function Weather(props) {
     return (
       <div className="center">
         "Fetching data..."
-        <img height={200} src={Taken} className="Loading-logo" />
+        <img height={200} src={Taken} className="Loading-logo" alt="logo-2" />
       </div>
     );
     }
