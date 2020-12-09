@@ -3,7 +3,7 @@ import WeatherStat from "./WeatherStat";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
-import Empty_street from "./Empty_street.svg";
+import Around_the_world from "./Around_the_world.svg";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -63,7 +63,7 @@ export default function Weather(props) {
         </form>
         <WeatherStat data={weatherData} />
         <WeatherForecast city={weatherData.city} />
-        <img height={100} strokewidth={900} src={Empty_street} className="justanicon" />
+        <img height={200} src={Around_the_world} className="App-logo" alt="logo" />
     </div>
         );
     } else {
