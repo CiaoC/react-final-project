@@ -4,6 +4,7 @@ import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
 import "./Weather.css";
 import Around_the_world from "./Around_the_world.svg";
+import Taken from "./Taken.svg";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -68,7 +69,11 @@ export default function Weather(props) {
         );
     } else {
         search();
-        return "Fetching data...";
-    
+    return (
+      <div className="center">
+        "Fetching data..."
+        <img height={200} src={Taken} className="Loading-logo" />
+      </div>
+    );
     }
 }
